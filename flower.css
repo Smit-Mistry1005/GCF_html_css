@@ -10,6 +10,119 @@
 
 .header
 {
-    height: 30vh;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 1;
+    height: 13vh;
+    background-color: #13293D;
+}
+
+.header h1
+{
+    display: flex;
+    justify-content: start;
+    margin-right: 400px;
+    color: #E8F1F2;
+}
+
+.nav-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    padding: 0px 70px;
+    align-content: center;
+    font-size: 1.2em;
+    color: #E8F1F2;
+    cursor: pointer;
+}
+
+/* MAIN */
+
+.About-Us
+{
+    margin: 50px;
+    background-color: #E8F1F2;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+    row-gap: 20px;
+    border-radius: 13px;
+}
+
+.About-Us h3
+{
+    font-size: 1.5em;
+    color: #13293D;
+}
+
+.About-Us p
+{
+    font-size: 1.1em;
+    color: #006494;
+}
+
+.product-container
+{
+    margin: 50px;
+    height: 60vh;
+    background-color: #E8F1F2;
+    
+}
+.product-container h3
+{
+    font-size: 1.5em;
+    margin: 20px ;
+    color: #13293D;
+}
+
+.products
+{
+        display: flex;
+        align-items: start;
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex: 1;
+}
+
+.products h3
+{
+    font-size: 1.5em;
+    margin: 70px  20px;
+}
+.product
+{
+    text-align: center;
+    align-items: center;
+    margin: 5px;
+    padding: 10px 0;
+}
+
+.product h4, .product h5
+{
+    font-size: 1em;
+    color: #1B98E0;
+    padding: 10px 10px;
+    /* margin: 0 10px; */
+}   
+
+.product img
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 125px;
+    border-radius: 10px;
+    margin: 0 25px;
 }
